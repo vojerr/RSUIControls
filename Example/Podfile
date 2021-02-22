@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'RSUIControls_Example' do
+  pod 'RSUIControls', :path => '../'
+
+  target 'RSUIControls_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

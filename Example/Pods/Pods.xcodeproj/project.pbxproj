@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01909B7844D37E20290F2AB4AA02E10D /* Pods-RSUIControls_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45321841C71787A9D7CB550119C09A01 /* Pods-RSUIControls_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0355F486EC71932046410D00546003A2 /* RSUIControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D782F4BF25AEE8EA313AF14F52D9933 /* RSUIControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CDB7F277F2ECCE9B3B4AC26F6E7CFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		414531980BD0046C0DCA8BF5F4E0E5EB /* AnimatedPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B97042AF321C2DA896321F8C358D1E /* AnimatedPageControl.swift */; };
+		4658173C53641EB151C1E704222F0E42 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB165E0DA92B9FFCF84D596F9B6DB29 /* FloatingLabelTextField.swift */; };
+		541367788488E674FFA43590E79EC382 /* Pods-RSUIControls_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 401015D76FD59FC858214DE006C7C0B6 /* Pods-RSUIControls_Example-dummy.m */; };
+		69CA1C44F65E0C48680589B2F95D24A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6BF3CADC7B9BF9D03DE3751A3366DB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCF5E9223D77ED297198E7F4C7539F4C /* InsettedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1332DE32F72789E230C37E9949F19B5C /* InsettedTextField.swift */; };
+		D6E1DF7546EC575E5DDD12E3373EB96D /* Pods-RSUIControls_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEB3D87F91D6FE9199D55AD68C2D416 /* Pods-RSUIControls_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0E4B8D296A39333C95F66FA151DE03 /* RSUIControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 487475A550A83F8E14164C80EE7C6327 /* RSUIControls-dummy.m */; };
+		E61D01D68349C2E579882D9A696E5C5C /* Pods-RSUIControls_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D3EE4159715EB7ED25892D21922395 /* Pods-RSUIControls_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		931254512B0C165A29FBDDE76F330575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD18086DFEED2A0E22B8EA8B19FC94A1;
+			remoteInfo = RSUIControls;
+		};
+		AB0B85BAC32C6184D51AFC0BFD747C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E457D9413BC32E16B4C00380073BEFC1;
+			remoteInfo = "Pods-RSUIControls_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129700F554BB0924C1D0B53077B9D1C3 /* Pods-RSUIControls_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSUIControls_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1332DE32F72789E230C37E9949F19B5C /* InsettedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InsettedTextField.swift; path = RSUIControls/Classes/InsettedTextField.swift; sourceTree = "<group>"; };
+		1368856346E823EF34AD23D68C75E987 /* RSUIControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSUIControls.modulemap; sourceTree = "<group>"; };
+		1D4BE253DE0D6918701073068D339BF3 /* RSUIControls-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSUIControls-Info.plist"; sourceTree = "<group>"; };
+		2489078FE45B1FE6732E7AA045C2BC40 /* Pods-RSUIControls_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSUIControls_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B915E1D71680F6DC5CC5C977C2294B0 /* RSUIControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSUIControls.release.xcconfig; sourceTree = "<group>"; };
+		3F5A98059328C2304B0D5E47C6D042F2 /* RSUIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSUIControls.framework; path = RSUIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401015D76FD59FC858214DE006C7C0B6 /* Pods-RSUIControls_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSUIControls_Example-dummy.m"; sourceTree = "<group>"; };
+		45321841C71787A9D7CB550119C09A01 /* Pods-RSUIControls_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSUIControls_Example-umbrella.h"; sourceTree = "<group>"; };
+		454488B394313E3C3CD8FFD08B95AD6D /* Pods_RSUIControls_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSUIControls_Tests.framework; path = "Pods-RSUIControls_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		487475A550A83F8E14164C80EE7C6327 /* RSUIControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSUIControls-dummy.m"; sourceTree = "<group>"; };
+		4A1DCE0D9D2DF4E0710A0182D17CFDC2 /* Pods-RSUIControls_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSUIControls_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A5AC1BC234CAC159FAF4DEDA85FA0E1 /* Pods-RSUIControls_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSUIControls_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		64F7ABBC80CA17852ACEC7FE77A75657 /* Pods-RSUIControls_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSUIControls_Example-Info.plist"; sourceTree = "<group>"; };
+		67B97042AF321C2DA896321F8C358D1E /* AnimatedPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedPageControl.swift; path = RSUIControls/Classes/AnimatedPageControl.swift; sourceTree = "<group>"; };
+		6E5611FB67D6836AC358F0E5C311927C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		749610BD4996F9DD972739BFE0DB4791 /* RSUIControls.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RSUIControls.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79E2C84893077CA16126838331C2937A /* Pods-RSUIControls_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSUIControls_Example.release.xcconfig"; sourceTree = "<group>"; };
+		88D3EE4159715EB7ED25892D21922395 /* Pods-RSUIControls_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSUIControls_Tests-dummy.m"; sourceTree = "<group>"; };
+		892083AAE579FAE8E0AC98A61E7DDAFC /* RSUIControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSUIControls.debug.xcconfig; sourceTree = "<group>"; };
+		9AEB3D87F91D6FE9199D55AD68C2D416 /* Pods-RSUIControls_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSUIControls_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D782F4BF25AEE8EA313AF14F52D9933 /* RSUIControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSUIControls-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB165E0DA92B9FFCF84D596F9B6DB29 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingLabelTextField.swift; path = RSUIControls/Classes/FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		A4D0CCE9A848535DBBD1CED774FE4F45 /* Pods-RSUIControls_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSUIControls_Tests.modulemap"; sourceTree = "<group>"; };
+		AA250285CBD6AB7267DC3E9A17E06E73 /* Pods_RSUIControls_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSUIControls_Example.framework; path = "Pods-RSUIControls_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AF28958187E83130B6C1141E563A3D /* Pods-RSUIControls_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSUIControls_Example.modulemap"; sourceTree = "<group>"; };
+		BFC1603577B792A92CF3164745965CD1 /* RSUIControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSUIControls-prefix.pch"; sourceTree = "<group>"; };
+		CFF5ACEB82D5E776834C3877DAC3BC30 /* Pods-RSUIControls_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSUIControls_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF855A3A78D8007517582B43D3D0CF9 /* Pods-RSUIControls_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSUIControls_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E27666DD40A1A48055626293D0882739 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E44AF0B861575E25AFC817E0A37305F6 /* Pods-RSUIControls_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSUIControls_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3CD91A2F3413B11F184C8053EFB67A4 /* Pods-RSUIControls_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSUIControls_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F60147E862248D4D0C30BE4C3523CCF9 /* Pods-RSUIControls_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSUIControls_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CEEA3AF07AD224D39020C9C53A4D5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF3CADC7B9BF9D03DE3751A3366DB6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44603146027FC601381C82C05CFD8D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDB7F277F2ECCE9B3B4AC26F6E7CFC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85124BF41586040F61B3874EE77157A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CA1C44F65E0C48680589B2F95D24A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C6DC61D69CEBD64B879BA1A3D786DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E74451B60AECD10F9F7C18C1278E58B8 /* RSUIControls */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		194C699074B59027B823F36ECEFE9162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA250285CBD6AB7267DC3E9A17E06E73 /* Pods_RSUIControls_Example.framework */,
+				454488B394313E3C3CD8FFD08B95AD6D /* Pods_RSUIControls_Tests.framework */,
+				3F5A98059328C2304B0D5E47C6D042F2 /* RSUIControls.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64CECFB932A5D0BB3A036F5B64DE36DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6539F2E9636EF9D8416A9C863B8CF6C6 /* Pods-RSUIControls_Example */,
+				BBD157D8B7C28F6D881BDECD349EDB99 /* Pods-RSUIControls_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6539F2E9636EF9D8416A9C863B8CF6C6 /* Pods-RSUIControls_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF28958187E83130B6C1141E563A3D /* Pods-RSUIControls_Example.modulemap */,
+				E44AF0B861575E25AFC817E0A37305F6 /* Pods-RSUIControls_Example-acknowledgements.markdown */,
+				4A1DCE0D9D2DF4E0710A0182D17CFDC2 /* Pods-RSUIControls_Example-acknowledgements.plist */,
+				401015D76FD59FC858214DE006C7C0B6 /* Pods-RSUIControls_Example-dummy.m */,
+				CFF855A3A78D8007517582B43D3D0CF9 /* Pods-RSUIControls_Example-frameworks.sh */,
+				64F7ABBC80CA17852ACEC7FE77A75657 /* Pods-RSUIControls_Example-Info.plist */,
+				45321841C71787A9D7CB550119C09A01 /* Pods-RSUIControls_Example-umbrella.h */,
+				CFF5ACEB82D5E776834C3877DAC3BC30 /* Pods-RSUIControls_Example.debug.xcconfig */,
+				79E2C84893077CA16126838331C2937A /* Pods-RSUIControls_Example.release.xcconfig */,
+			);
+			name = "Pods-RSUIControls_Example";
+			path = "Target Support Files/Pods-RSUIControls_Example";
+			sourceTree = "<group>";
+		};
+		AF26EB271F2FC90D62C926A3FC7CD3FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1368856346E823EF34AD23D68C75E987 /* RSUIControls.modulemap */,
+				487475A550A83F8E14164C80EE7C6327 /* RSUIControls-dummy.m */,
+				1D4BE253DE0D6918701073068D339BF3 /* RSUIControls-Info.plist */,
+				BFC1603577B792A92CF3164745965CD1 /* RSUIControls-prefix.pch */,
+				9D782F4BF25AEE8EA313AF14F52D9933 /* RSUIControls-umbrella.h */,
+				892083AAE579FAE8E0AC98A61E7DDAFC /* RSUIControls.debug.xcconfig */,
+				2B915E1D71680F6DC5CC5C977C2294B0 /* RSUIControls.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSUIControls";
+			sourceTree = "<group>";
+		};
+		BBD157D8B7C28F6D881BDECD349EDB99 /* Pods-RSUIControls_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D0CCE9A848535DBBD1CED774FE4F45 /* Pods-RSUIControls_Tests.modulemap */,
+				F3CD91A2F3413B11F184C8053EFB67A4 /* Pods-RSUIControls_Tests-acknowledgements.markdown */,
+				2489078FE45B1FE6732E7AA045C2BC40 /* Pods-RSUIControls_Tests-acknowledgements.plist */,
+				88D3EE4159715EB7ED25892D21922395 /* Pods-RSUIControls_Tests-dummy.m */,
+				F60147E862248D4D0C30BE4C3523CCF9 /* Pods-RSUIControls_Tests-Info.plist */,
+				9AEB3D87F91D6FE9199D55AD68C2D416 /* Pods-RSUIControls_Tests-umbrella.h */,
+				129700F554BB0924C1D0B53077B9D1C3 /* Pods-RSUIControls_Tests.debug.xcconfig */,
+				4A5AC1BC234CAC159FAF4DEDA85FA0E1 /* Pods-RSUIControls_Tests.release.xcconfig */,
+			);
+			name = "Pods-RSUIControls_Tests";
+			path = "Target Support Files/Pods-RSUIControls_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				12C6DC61D69CEBD64B879BA1A3D786DE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				194C699074B59027B823F36ECEFE9162 /* Products */,
+				64CECFB932A5D0BB3A036F5B64DE36DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E74451B60AECD10F9F7C18C1278E58B8 /* RSUIControls */ = {
+			isa = PBXGroup;
+			children = (
+				67B97042AF321C2DA896321F8C358D1E /* AnimatedPageControl.swift */,
+				9DB165E0DA92B9FFCF84D596F9B6DB29 /* FloatingLabelTextField.swift */,
+				1332DE32F72789E230C37E9949F19B5C /* InsettedTextField.swift */,
+				EDC880E6267FD44DAD4A07C25E599743 /* Pod */,
+				AF26EB271F2FC90D62C926A3FC7CD3FF /* Support Files */,
+			);
+			name = RSUIControls;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EDC880E6267FD44DAD4A07C25E599743 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6E5611FB67D6836AC358F0E5C311927C /* LICENSE */,
+				E27666DD40A1A48055626293D0882739 /* README.md */,
+				749610BD4996F9DD972739BFE0DB4791 /* RSUIControls.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		232536D6E48F2F0111C08371A11D61D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01909B7844D37E20290F2AB4AA02E10D /* Pods-RSUIControls_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8152D1AD509A1DE5BB1EE52DCD8D46FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E1DF7546EC575E5DDD12E3373EB96D /* Pods-RSUIControls_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994CD6858DC85F74639064B8E34BFF13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0355F486EC71932046410D00546003A2 /* RSUIControls-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EEF2B32721494B2C534F1B538B52DC2 /* Pods-RSUIControls_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D6BE1589F40ECFC5C452247D0679C6 /* Build configuration list for PBXNativeTarget "Pods-RSUIControls_Tests" */;
+			buildPhases = (
+				8152D1AD509A1DE5BB1EE52DCD8D46FE /* Headers */,
+				561FC8962FC41609768A017B2DFD9702 /* Sources */,
+				44603146027FC601381C82C05CFD8D27 /* Frameworks */,
+				86E749258B287C91A5F91F8DE695641A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2E823BEC060F783AB5A173B7ACE814 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSUIControls_Tests";
+			productName = "Pods-RSUIControls_Tests";
+			productReference = 454488B394313E3C3CD8FFD08B95AD6D /* Pods_RSUIControls_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD18086DFEED2A0E22B8EA8B19FC94A1 /* RSUIControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB0C3606549DA27433C717012FE16F2 /* Build configuration list for PBXNativeTarget "RSUIControls" */;
+			buildPhases = (
+				994CD6858DC85F74639064B8E34BFF13 /* Headers */,
+				AF6B7DDD34EAF69E1953E668D83A846B /* Sources */,
+				2CEEA3AF07AD224D39020C9C53A4D5E0 /* Frameworks */,
+				4A8C3C868CF1BCA61E90F54257C8703B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSUIControls;
+			productName = RSUIControls;
+			productReference = 3F5A98059328C2304B0D5E47C6D042F2 /* RSUIControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E457D9413BC32E16B4C00380073BEFC1 /* Pods-RSUIControls_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A315DE3691F98ED269791F0DB65D73 /* Build configuration list for PBXNativeTarget "Pods-RSUIControls_Example" */;
+			buildPhases = (
+				232536D6E48F2F0111C08371A11D61D4 /* Headers */,
+				A920C4BA866A39397679DAC936AE6972 /* Sources */,
+				85124BF41586040F61B3874EE77157A8 /* Frameworks */,
+				9EEF4DC70CB8F7C2CABE82A0A4C1D3B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				134EA3E32495687B430A22FDDE16EAAE /* PBXTargetDependency */,
+			);
+			name = "Pods-RSUIControls_Example";
+			productName = "Pods-RSUIControls_Example";
+			productReference = AA250285CBD6AB7267DC3E9A17E06E73 /* Pods_RSUIControls_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 194C699074B59027B823F36ECEFE9162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E457D9413BC32E16B4C00380073BEFC1 /* Pods-RSUIControls_Example */,
+				0EEF2B32721494B2C534F1B538B52DC2 /* Pods-RSUIControls_Tests */,
+				DD18086DFEED2A0E22B8EA8B19FC94A1 /* RSUIControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A8C3C868CF1BCA61E90F54257C8703B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E749258B287C91A5F91F8DE695641A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEF4DC70CB8F7C2CABE82A0A4C1D3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561FC8962FC41609768A017B2DFD9702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61D01D68349C2E579882D9A696E5C5C /* Pods-RSUIControls_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A920C4BA866A39397679DAC936AE6972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541367788488E674FFA43590E79EC382 /* Pods-RSUIControls_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6B7DDD34EAF69E1953E668D83A846B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414531980BD0046C0DCA8BF5F4E0E5EB /* AnimatedPageControl.swift in Sources */,
+				4658173C53641EB151C1E704222F0E42 /* FloatingLabelTextField.swift in Sources */,
+				CCF5E9223D77ED297198E7F4C7539F4C /* InsettedTextField.swift in Sources */,
+				DD0E4B8D296A39333C95F66FA151DE03 /* RSUIControls-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		134EA3E32495687B430A22FDDE16EAAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSUIControls;
+			target = DD18086DFEED2A0E22B8EA8B19FC94A1 /* RSUIControls */;
+			targetProxy = 931254512B0C165A29FBDDE76F330575 /* PBXContainerItemProxy */;
+		};
+		3B2E823BEC060F783AB5A173B7ACE814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSUIControls_Example";
+			target = E457D9413BC32E16B4C00380073BEFC1 /* Pods-RSUIControls_Example */;
+			targetProxy = AB0B85BAC32C6184D51AFC0BFD747C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		124120711360B89F4527E43A0B6FA56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129700F554BB0924C1D0B53077B9D1C3 /* Pods-RSUIControls_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSUIControls_Tests/Pods-RSUIControls_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSUIControls_Tests/Pods-RSUIControls_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39BAD38E88E84B47E6B9D465475096DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5AC1BC234CAC159FAF4DEDA85FA0E1 /* Pods-RSUIControls_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSUIControls_Tests/Pods-RSUIControls_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSUIControls_Tests/Pods-RSUIControls_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63F35251B592E347190BA4E9ED250AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF5ACEB82D5E776834C3877DAC3BC30 /* Pods-RSUIControls_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSUIControls_Example/Pods-RSUIControls_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSUIControls_Example/Pods-RSUIControls_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67DA2CA0ECADB8D90944F4C5D87577C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E2C84893077CA16126838331C2937A /* Pods-RSUIControls_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSUIControls_Example/Pods-RSUIControls_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSUIControls_Example/Pods-RSUIControls_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D5F840AEC0046EDBA5B77D9C6CA5B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B915E1D71680F6DC5CC5C977C2294B0 /* RSUIControls.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSUIControls/RSUIControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSUIControls/RSUIControls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSUIControls/RSUIControls.modulemap";
+				PRODUCT_MODULE_NAME = RSUIControls;
+				PRODUCT_NAME = RSUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C300CB3AA35D646F747085B93785A0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892083AAE579FAE8E0AC98A61E7DDAFC /* RSUIControls.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSUIControls/RSUIControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSUIControls/RSUIControls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSUIControls/RSUIControls.modulemap";
+				PRODUCT_MODULE_NAME = RSUIControls;
+				PRODUCT_NAME = RSUIControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A315DE3691F98ED269791F0DB65D73 /* Build configuration list for PBXNativeTarget "Pods-RSUIControls_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F35251B592E347190BA4E9ED250AED /* Debug */,
+				67DA2CA0ECADB8D90944F4C5D87577C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB0C3606549DA27433C717012FE16F2 /* Build configuration list for PBXNativeTarget "RSUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C300CB3AA35D646F747085B93785A0A5 /* Debug */,
+				6D5F840AEC0046EDBA5B77D9C6CA5B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D6BE1589F40ECFC5C452247D0679C6 /* Build configuration list for PBXNativeTarget "Pods-RSUIControls_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124120711360B89F4527E43A0B6FA56E /* Debug */,
+				39BAD38E88E84B47E6B9D465475096DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

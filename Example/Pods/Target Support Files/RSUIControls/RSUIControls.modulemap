@@ -1,0 +1,6 @@
+framework module RSUIControls {
+  umbrella header "RSUIControls-umbrella.h"
+
+  export *
+  module * { export * }
+}

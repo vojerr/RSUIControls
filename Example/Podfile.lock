@@ -1,0 +1,16 @@
+PODS:
+  - RSUIControls (0.1.0)
+
+DEPENDENCIES:
+  - RSUIControls (from `../`)
+
+EXTERNAL SOURCES:
+  RSUIControls:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSUIControls: 8d64e1d7a3975f75473e2d06bbc97c8ff02fcd9e
+
+PODFILE CHECKSUM: 422808fe000d16a4b61bb753afd840a88ce65e2d
+
+COCOAPODS: 1.10.1
