@@ -22,7 +22,7 @@ pod 'RSUIControls'
 
 ## Author
 
-Ruslan Samsonov, rsamsonov@devexperts.com
+Ruslan Samsonov, ruslan.samsonov91@gmail.com
 
 ## License
 
