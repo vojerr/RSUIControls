@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RSUIControls'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'Collection of ready-to-use iOS controls'
   s.description      = "Fully customized collection of iOS controls"
 
